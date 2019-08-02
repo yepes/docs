@@ -718,13 +718,13 @@ const Federated = withFederated(Buttons);
 
 ...
 
-const federated = {
+const federatedConfig = {
     google_client_id: '', // Enter your google_client_id here
     facebook_app_id: '', // Enter your facebook_app_id here   
     amazon_client_id: '' // Enter your amazon_client_id here
 };
 
-<Federated federated={federated} onStateChange={this.handleAuthStateChange} />
+<Federated federated={federatedConfig} onStateChange={this.handleAuthStateChange} />
 ```
 
 There is also `withGoogle`, `withFacebook`, `withAmazon` components, in case you need to customize a single provider.
