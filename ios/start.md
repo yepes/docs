@@ -115,7 +115,7 @@ Drag and drop this file from your `Finder` to the Xcode project (under the top P
 target :'YOUR-APP-NAME' do
     use_frameworks!
 
-    pod 'AWSAppSync', '~> 2.14.2'
+    pod 'AWSAppSync', '~> 2.15.0'
 
 end
 ```

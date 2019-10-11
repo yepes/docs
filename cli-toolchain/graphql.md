@@ -2448,7 +2448,7 @@ Next, modify your **Podfile** with a dependency of the AWS AppSync SDK:
 ```ruby
 target 'PostsApp' do
   use_frameworks!
-  pod 'AWSAppSync', ' ~> 2.9.0'
+  pod 'AWSAppSync', ' ~> 2.15.0'
 end
 ```
 
