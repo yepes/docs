@@ -360,6 +360,17 @@ buildSync
 localForage
 mutationName
 
+# js/datastore.md
+DataStore
+Automerge
+IndexedDB
+modelgen
+npx
+synchronizes
+adhiere
+queueing
+deserialize
+
 # js/analytics.md
 Kinesis
 javascript
