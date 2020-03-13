@@ -61,9 +61,8 @@ Name your GraphQL endpoint and select authorization type:
   Amazon Cognito User Pool
 ```
 
-<amplify-callout>
 AWS AppSync API keys expire seven days after creation, and using API KEY authentication is only suggested for development. To change AWS AppSync authorization type after the initial configuration, use the `$ amplify update api` command and select `GraphQL`.
-</amplify-callout>
+{: .callout .callout--info}
 
 When you update your backend with *push* command, you can go to [AWS AppSync Console](http://console.aws.amazon.com/appsync/home) and see that a new API is added under *APIs* menu item:
 

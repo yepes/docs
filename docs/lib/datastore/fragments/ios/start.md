@@ -31,9 +31,8 @@ type Post @model {
 
 After saving the file build your project.
 
-<amplify-callout>
 You do not need an AWS account to run this and use DataStore locally, however if you wish to sync with the cloud it is recommended you [Install and configure the Amplify CLI](..)
-</amplify-callout>
+{: .callout .callout--info}
 
 ## Manual Model Generation
 

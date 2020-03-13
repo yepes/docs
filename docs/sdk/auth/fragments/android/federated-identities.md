@@ -1,4 +1,6 @@
+**Availability Note**
 Currently, the federation feature in the AWSMobileClient supports Cognito Identity Pools only.
+{: .callout .callout--info}
 
 ### Federated Sign In
 
@@ -40,7 +42,9 @@ AWSMobileClient.getInstance().federatedSignIn("YOUR_SAML_PROVIDER_NAME", "YOUR_S
 });
 ```
 
-**Note:**If the SAML token contains more than one Role ARN, you will need to specify which role will be assumed when federating. If the SAML token has more than one Role ARN and a `customRoleARN` is not specified, it will result in an error.
+**Note**
+If the SAML token contains more than one Role ARN, you will need to specify which role will be assumed when federating. If the SAML token has more than one Role ARN and a `customRoleARN` is not specified, it will result in an error.
+{: .callout .callout--info}
 
 ```java
 // Choose one of the roles available in the token
@@ -68,6 +72,7 @@ AWS Amplify helps set this up for you but first this topic explains how to set u
 
 If you already have a Facebook app ID, you can copy and paste it into the `Facebook App ID` field
 when configuring authentication using the AWS Amplify CLI.
+{: .callout .callout--info}
 
 **To get a Facebook app ID**
 

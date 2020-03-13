@@ -4,9 +4,8 @@ DataStore can connect to an existing AppSync backend that has been deployed from
 
 For more information on this workflow please see the [Multiple Frontends documentation](https://aws-amplify.github.io/docs/cli-toolchain/quickstart#multiple-frontends){:target="_blank"}.
 
-<amplify-callout>
 If you do not already have a local AWS profile with credentials you can automatically setup with the Amplify CLI by running `amplify configure` 
-</amplify-callout>
+{: .callout .callout--info}
 
 ## Use NPM
 ```

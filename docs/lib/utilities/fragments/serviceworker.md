@@ -2,9 +2,8 @@ AWS Amplify *ServiceWorker* class enables registering a service worker in the br
 
 After registering the service worker, the ServiceWorker module will listen and attempt to dispatch messages on state changes, and it will record analytics events based on the service worker's lifecycle.
 
-<amplify-callout>
-postMessage events are currently not supported in all browsers. For details and to learn more about Service Worker API, please [visit here](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/).
-</amplify-callout>
+*postMessage* events are currently not supported in all browsers. For details and to learn more about Service Worker API, please [visit here](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/).
+{: .callout .callout--info}
 
 ## Installation
 
@@ -35,9 +34,8 @@ This method will enable web push notifications for your app. If your app is not 
     serviceWorker.enablePush('BLx__NGvdasMNkjd6VYPdzQJVBkb2qafh')
 ```
 
-<amplify-callout>
 You need a web push service provider to generate the public key, and sending the actual push notifications. To test push messages with a non-production environment, you can follow [this tutorial](https://developers.google.com/web/fundamentals/codelabs/push-notifications/).
-</amplify-callout>
+{: .callout .callout--info}
 
 ### Handling a Push Notification
 
@@ -124,6 +122,7 @@ You can see those analytics events are related metrics in Amazon Pinpoint consol
 ## API Reference
 
 For the complete API documentation for ServiceWorker module, visit our [API Reference](https://aws-amplify.github.io/amplify-js/docs/api/classes/serviceworkerclass.html)
+{: .callout .callout--info}
 
 ## Using Modular Imports
 
