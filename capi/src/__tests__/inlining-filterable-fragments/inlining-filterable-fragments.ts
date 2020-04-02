@@ -23,10 +23,10 @@ test("inlining-filterable-fragments", async () => {
         {filters: {platform: "ios"}},
         [
           "docs-in-page-link",
-          {targetId: "im-an-ios-specific-fragment"},
+          {targetId: "im-an-ios-specific-fragment-platform-ios"},
           [
             "h2",
-            {id: "im-an-ios-specific-fragment"},
+            {id: "im-an-ios-specific-fragment-platform-ios"},
             "I’m an iOS-specific fragment",
           ],
         ],
@@ -42,10 +42,10 @@ test("inlining-filterable-fragments", async () => {
         {filters: {platform: "android"}},
         [
           "docs-in-page-link",
-          {targetId: "im-an-android-specific-fragment"},
+          {targetId: "im-an-android-specific-fragment-platform-android"},
           [
             "h2",
-            {id: "im-an-android-specific-fragment"},
+            {id: "im-an-android-specific-fragment-platform-android"},
             "I’m an Android-specific fragment",
           ],
         ],
@@ -74,10 +74,10 @@ test("inlining-filterable-fragments", async () => {
         {filters: {platform: "ios"}},
         [
           "docs-in-page-link",
-          {targetId: "im-an-ios-specific-fragment"},
+          {targetId: "im-an-ios-specific-fragment-platform-ios"},
           [
             "h2",
-            {id: "im-an-ios-specific-fragment"},
+            {id: "im-an-ios-specific-fragment-platform-ios"},
             "I’m an iOS-specific fragment",
           ],
         ],
@@ -93,10 +93,10 @@ test("inlining-filterable-fragments", async () => {
         {filters: {platform: "android"}},
         [
           "docs-in-page-link",
-          {targetId: "im-an-android-specific-fragment"},
+          {targetId: "im-an-android-specific-fragment-platform-android"},
           [
             "h2",
-            {id: "im-an-android-specific-fragment"},
+            {id: "im-an-android-specific-fragment-platform-android"},
             "I’m an Android-specific fragment",
           ],
         ],
@@ -112,10 +112,10 @@ test("inlining-filterable-fragments", async () => {
         {filters: {platform: "js"}},
         [
           "docs-in-page-link",
-          {targetId: "im-a-js-specific-fragment"},
+          {targetId: "im-a-js-specific-fragment-platform-js"},
           [
             "h2",
-            {id: "im-a-js-specific-fragment"},
+            {id: "im-a-js-specific-fragment-platform-js"},
             "I’m a JS-specific fragment",
           ],
         ],

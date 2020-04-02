@@ -188,7 +188,7 @@ export async function API(c: t.Config): Promise<void> {
           config,
         };
 
-        visitorGroup.map((visit) => visit(props));
+        visitorGroup.forEach((visit) => visit(props));
       });
     });
 
