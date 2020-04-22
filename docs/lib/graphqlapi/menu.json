@@ -1,0 +1,15 @@
+{
+  "title": "API (GraphQL)",
+  "items": [
+    "getting-started",
+    "concepts",
+    "create-or-re-use-existing-backend",
+    "authz",
+    "query-data",
+    "mutate-data",
+    "subscribe-data",
+    "offline",
+    "graphql-from-nodejs",
+    "advanced-workflows"
+  ]
+}

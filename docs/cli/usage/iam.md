@@ -1,0 +1,95 @@
+---
+title: IAM Policy
+description: The Amplify CLI requires several IAM policies for performing actions across all categories. You can grant or restrict category permissions by including or removing items from the `Action` section as appropriate.
+--- 
+
+The Amplify CLI requires the below IAM policies for performing actions across all categories. You can grant or restrict category permissions by including or removing items from the `Action` section as appropriate. For example, if you wish to restrict operations on the `Auth` category you can remove any of the lines starting with `cognito`.
+
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "appsync:*",
+                "apigateway:POST",
+                "apigateway:DELETE",
+                "apigateway:PATCH",
+                "apigateway:PUT",
+                "cloudformation:CreateStack",
+                "cloudformation:CreateStackSet",
+                "cloudformation:DeleteStack",
+                "cloudformation:DeleteStackSet",
+                "cloudformation:DescribeStackEvents",
+                "cloudformation:DescribeStackResource",
+                "cloudformation:DescribeStackResources",
+                "cloudformation:DescribeStackSet",
+                "cloudformation:DescribeStackSetOperation",
+                "cloudformation:DescribeStacks",
+                "cloudformation:UpdateStack",
+                "cloudformation:UpdateStackSet",
+                "cloudfront:CreateCloudFrontOriginAccessIdentity",
+                "cloudfront:CreateDistribution",
+                "cloudfront:DeleteCloudFrontOriginAccessIdentity",
+                "cloudfront:DeleteDistribution",
+                "cloudfront:GetCloudFrontOriginAccessIdentity",
+                "cloudfront:GetCloudFrontOriginAccessIdentityConfig",
+                "cloudfront:GetDistribution",
+                "cloudfront:GetDistributionConfig",
+                "cloudfront:TagResource",
+                "cloudfront:UntagResource",
+                "cloudfront:UpdateCloudFrontOriginAccessIdentity",
+                "cloudfront:UpdateDistribution",
+                "cognito-identity:CreateIdentityPool",
+                "cognito-identity:DeleteIdentityPool",
+                "cognito-identity:DescribeIdentity",
+                "cognito-identity:DescribeIdentityPool",
+                "cognito-identity:SetIdentityPoolRoles",
+                "cognito-identity:UpdateIdentityPool",
+                "cognito-idp:CreateUserPool",
+                "cognito-idp:CreateUserPoolClient",
+                "cognito-idp:DeleteUserPool",
+                "cognito-idp:DeleteUserPoolClient",
+                "cognito-idp:DescribeUserPool",
+                "cognito-idp:UpdateUserPool",
+                "cognito-idp:UpdateUserPoolClient",
+                "dynamodb:CreateTable",
+                "dynamodb:DeleteItem",
+                "dynamodb:DeleteTable",
+                "dynamodb:DescribeTable",
+                "dynamodb:PutItem",
+                "dynamodb:UpdateItem",
+                "dynamodb:UpdateTable",
+                "events:DeleteRule",
+                "events:DescribeRule",
+                "events:PutRule",
+                "events:PutTargets",
+                "events:RemoveTargets",
+                "iam:CreateRole",
+                "iam:DeleteRole",
+                "iam:DeleteRolePolicy",
+                "iam:GetRole",
+                "iam:GetUser",
+                "iam:PassRole",
+                "iam:PutRolePolicy",
+                "iam:UpdateRole",
+                "lambda:AddPermission",
+                "lambda:CreateFunction",
+                "lambda:DeleteFunction",
+                "lambda:GetFunction",
+                "lambda:GetFunctionConfiguration",
+                "lambda:InvokeAsync",
+                "lambda:InvokeFunction",
+                "lambda:RemovePermission",
+                "lambda:UpdateFunctionCode",
+                "lambda:UpdateFunctionConfiguration",
+                "s3:*",
+                "amplify:*"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+```

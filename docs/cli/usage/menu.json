@@ -1,0 +1,12 @@
+{
+  "title": "Advanced workflows",
+  "items": [
+    "mock",
+    "customcf",
+    "iam",
+    "iam-roles-mfa",
+    "files",
+    "headless",
+    "plugin"
+  ]
+}

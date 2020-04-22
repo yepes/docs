@@ -1,0 +1,24 @@
+{
+  "title": "Authentication",
+  "items": [
+		"getting-started",
+    "overview",
+    "start",
+    "emailpassword",
+    "social",
+    "mfa",
+    "manageusers",
+    "switch-auth",
+    "customui",
+    "advanced",
+
+    "how-it-works",
+		"guest-access",
+		"working-with-api",
+		"drop-in-auth",
+		"federated-identities",
+		"hosted-ui",
+		"custom-auth-flow",
+		"device-features"
+  ]
+}
