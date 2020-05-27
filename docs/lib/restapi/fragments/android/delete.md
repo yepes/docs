@@ -1,4 +1,4 @@
-## DELETE data
+## DELETE requests
 
 ```java
 void deleteTodo() {

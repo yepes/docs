@@ -8,7 +8,7 @@ To setup and configure your application with Amplify API to make requests to you
 <inline-fragment platform="ios" src="~/lib/restapi/fragments/ios/getting-started/10_preReq.md"></inline-fragment>
 <inline-fragment platform="android" src="~/lib/restapi/fragments/android/getting-started/10_preReq.md"></inline-fragment>
 
-## Provision Backend Storage Services
+## Provision backend storage services
 
 To start provisioning api resources in the backend, go to your project directory and **execute the command**:
 
@@ -17,6 +17,7 @@ amplify add api
 ```
 
 Enter the following when prompted:
+
 ```console
 ? Please select from one of the below mentioned services: 
     `REST`
@@ -38,8 +39,8 @@ Enter the following when prompted:
     `No`
 ? Do you want to invoke this function on a recurring schedule? 
     `No`
-? Do you want to edit the local lambda function now? `No`
-Succesfully added the Lambda function locally
+? Do you want to edit the local lambda function now?
+    `No`
 ? Restrict API access 
     `Yes`
 ? Who should have access? 
@@ -48,7 +49,6 @@ Succesfully added the Lambda function locally
     `create, read, update, delete`
 ? What kind of access do you want for Guest users? 
     `create, read, update, delete`
-Successfully added auth resource locally.
 ? Do you want to add another path? 
     `No`
 ```
@@ -62,10 +62,12 @@ amplify push
 Upon completion, `amplifyconfiguration.json` should be updated to reference provisioned backend storage resources.  Note that these files should already be a part of your project if you followed the [Project setup walkthrough](~/lib/project-setup/create-application.md).
 
 ## Install Amplify Libraries
+
 <inline-fragment platform="ios" src="~/lib/restapi/fragments/ios/getting-started/20_installLib.md"></inline-fragment>
 <inline-fragment platform="android" src="~/lib/restapi/fragments/android/getting-started/20_installLib.md"></inline-fragment>
 
 ## Initialize Amplify API
+
 <inline-fragment platform="ios" src="~/lib/restapi/fragments/ios/getting-started/30_initapi.md"></inline-fragment>
 <inline-fragment platform="android" src="~/lib/restapi/fragments/android/getting-started/30_initapi.md"></inline-fragment>
 
@@ -79,7 +81,8 @@ Copy and paste the following code in your application so that it runs only once 
 To navigate to your backend, go to the [API Gateway console](https://aws.amazon.com/apigateway) and select the API. The name of the API corresponds to the friendly name of the resource to be used as a label you specified earlier in the CLI steps.
 
 ## Next steps
-Congratulations! You've made a call to your API Gateway and triggered your lambda function. Check out the following links to see other Amplify API use cases:
+
+Congratulations! You've made a call to your API Gateway and triggered your Lambda function. Check out the following links to see other Amplify API use cases:
 
 * [Fetching Data](~/lib/restapi/fetch.md)
 * [Updating Data](~/lib/restapi/update.md)

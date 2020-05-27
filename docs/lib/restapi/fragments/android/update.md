@@ -1,4 +1,4 @@
-## Update data
+## PUT requests
 
 Put data to the API endpoint:
 
